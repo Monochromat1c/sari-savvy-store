@@ -59,6 +59,21 @@
                                     Click here to view.
                                 </footer>
                             </a>
+                            <a href="/admin/statistics"
+                                class="admin-dashboard-card-statistics admin-dashboard-card-statistics-hover card_product">
+                                <div class="admin-dashboard-card-statistics-body">
+                                    <img src="/assets/img/statistics-icon.png" width="123" height="123" alt=""
+                                        class="card-image kld--padding-1">
+                                    <h2 class="kld--text-color-white kld--margin-bottom-1 nowrap">Statistics</h2>
+                                    <p class="kld--text-color-white">View detailed analytics and performance metrics of
+                                        the store. Track sales trends, inventory levels, and more.
+                                    </p>
+                                </div>
+                                <footer
+                                    class="kld--text-align-center kld--text-color-white admin-dashboard-card-statistics-footer">
+                                    Click here to view.
+                                </footer>
+                            </a>
                             <a href="/admin/transactions"
                                 class="admin-dashboard-card-transactions admin-dashboard-card-transactions-hover card_product">
                                 <div class="admin-dashboard-card-transactions-body">
@@ -73,21 +88,7 @@
                                     class="kld--text-align-center kld--text-color-white admin-dashboard-card-transactions-footer">
                                     Click here to view.
                                 </footer>
-                            </a>
-                            <a href="/admin/statistics" class="admin-dashboard-card-statistics admin-dashboard-card-statistics-hover card_product">
-                                <div class="admin-dashboard-card-statistics-body">
-                                    <img src="/assets/img/statistics-icon.png" width="123" height="123" alt=""
-                                        class="card-image kld--padding-1">
-                                    <h2 class="kld--text-color-white kld--margin-bottom-1 nowrap">Statistics</h2>
-                                    <p class="kld--text-color-white">View detailed analytics and performance metrics of
-                                        the store.
-                                    </p>
-                                </div>
-                                <footer
-                                    class="kld--text-align-center kld--text-color-white admin-dashboard-card-statistics-footer">
-                                    Click here to view.
-                                </footer>
-                            </a>                            
+                            </a>                        
                         </section>
                 </section>
             </section>
