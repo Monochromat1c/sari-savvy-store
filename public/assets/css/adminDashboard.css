@@ -1,0 +1,152 @@
+.nowrap {
+    text-wrap: nowrap;
+    @media (max-width: 320px) {
+        text-wrap: wrap;
+    }
+}
+
+.card-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.card-product {
+    position: relative;
+}
+
+.card-image {
+    float: left;
+}
+
+.admin-dashboard-card-products-hover:hover {
+    box-shadow: -1px 5px 19px #7e3abf;
+    outline: 1px solid #9949e4;
+}
+
+.admin-dashboard-card-records-hover:hover {
+    box-shadow: -1px 5px 19px #ec407a;
+    outline: 1px solid #f5588d;
+}
+
+.admin-dashboard-card-statistics-hover:hover {
+    box-shadow: -1px 5px 19px #2fb987;
+    outline: 1px solid #3ce2a5;
+}
+
+.admin-dashboard-card-transactions-hover:hover {
+    box-shadow: -1px 5px 19px #3b82f6;
+    outline: 1px solid #5997fa;
+}
+
+/* Products card */
+.admin-dashboard-card-icon {
+    float: left;
+}
+.admin-dashboard-card-products {
+    position: relative;
+    border-radius: 3rem;
+    margin: 1rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    @media (min-width: 720px) {
+        width: 47%;
+    }
+    background-color: #6b21a8;
+}
+
+.admin-dashboard-card-products-body {
+    padding: 2rem 2rem 8rem 1.5rem;
+    
+}
+
+.admin-dashboard-card-products-footer {
+    bottom: 0;
+    min-width: 100%;
+    padding: 1.5rem;
+    border-radius: 0 0 3rem 3rem;
+    position: absolute;
+    background-color: #5a1993;
+}
+
+/* Records card */
+.admin-dashboard-card-records {
+    border-radius: 3rem;
+    margin: 1rem;
+    position: relative;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    @media (min-width: 720px) {
+        width: 47%;
+    }
+    background-color: #e11d48;
+}
+
+.admin-dashboard-card-records-body {
+    padding: 2rem 2rem 8rem 1.5rem;
+    
+}
+
+.admin-dashboard-card-records-footer {
+    bottom: 0;
+    min-width: 100%;
+    padding: 1.5rem;
+    border-radius: 0 0 3rem 3rem;
+    background-color: #c0183a;
+    position: absolute;
+}
+
+/* Statistics card */
+.admin-dashboard-card-statistics {
+    position: relative;
+    border-radius: 3rem;
+    margin: 1rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    @media (min-width: 720px) {
+        width: 47%;
+    }
+    background-color: #059669;
+}
+
+.admin-dashboard-card-statistics-body {
+    padding: 2rem 2rem 8rem 2rem;
+    
+}
+
+.admin-dashboard-card-statistics-footer {
+    bottom: 0;
+    min-width: 100%;
+    padding: 1.5rem;
+    border-radius: 0 0 3rem 3rem;
+    background-color: #047857;
+    position: absolute;
+
+}
+
+/* Transactions card */
+.admin-dashboard-card-transactions {
+    position: relative;
+    border-radius: 3rem;
+    margin: 1rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    @media (min-width: 720px) {
+        width: 47%;
+    }
+    background-color: #2563eb;
+}
+
+.admin-dashboard-card-transactions-body {
+    padding: 2rem 2rem 8rem 2rem;
+    
+}
+
+.admin-dashboard-card-transactions-footer {
+    bottom: 0;
+    min-width: 100%;
+    padding: 1.5rem;
+    border-radius: 0 0 3rem 3rem;
+    position: absolute;
+    background-color: #1e40af;
+}

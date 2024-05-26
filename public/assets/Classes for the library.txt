@@ -1,0 +1,102 @@
+--COMPONENTS--
+// Header
+.kld--header
+.kld--header-logo
+.kld--header-link-wrapper-{center/left/right}
+.kld--header-link-container
+
+
+// Buttons
+.kld--button
+.kld--button-{colors}
+.kld--button-outline-{colors}
+.kld--button-complement-{colors}
+.kld--button-hover
+
+
+// Cards
+.kld--card
+.kld--card-title (will only work if inside the .card)
+.kld--card-body (will only work if inside the .card)
+
+
+// Form
+.kld--form-flex
+
+
+// Table
+.kld--table
+
+
+// Navbar
+.kld--navbar
+.kld--site-title (will only work if it is inside .navbar)
+.kld--container (will only work if it is inside .navbar)
+.kld--navbar-background-color-{colors}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--COLORS--
+// colors: primary, secondary, error, info, blue, red, yellow, green, orange, purple, gray, black, white
+.kld--text-color-{colors}
+    // Light variation for colors
+    .text-color-{colors}-light-{1, 2, 3, 4, 5, 6, 7, 8, 9}
+    // Dark variation for colors
+    .text-color-{colors}-dark-{1, 2, 3, 4, 5, 6, 7, 8, 9}
+.kld--text-hover-{colors}
+    // Light variation for colors
+    .text-hover-color-{colors}-light-{1, 2, 3, 4, 5, 6, 7, 8, 9}
+    // Dark variation for colors
+    .text-hover-color-{colors}-dark-{1, 2, 3, 4, 5, 6, 7, 8, 9}
+.kld--background-color-{colors}
+    // Light variation for colors
+    .background-color-{colors}-light-{1, 2, 3, 4, 5, 6, 7, 8, 9}
+    // Dark variation for colors
+    .background-color-{colors}-dark-{1, 2, 3, 4, 5, 6, 7, 8, 9}
+    
+
+--UTILITIES--
+// justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly, initial, inherit
+// align-items:  normal, stretch, center, flex-start, flex-end, start, end, baseline, initial, inherit
+// width: percent-20, percent-30, percent-40, percent-50, percent-60, percent-70, percent-80, percent-90, percent-100, 
+        dvw-20, dvw-30, dvw-40, dvw-50, dvw-60, dvw-70, dvw-80, dvw-90, dvw-100, 
+// height: percent-20, percent-30, percent-40, percent-50, percent-60, percent-70, percent-80, percent-90, percent-100, 
+        dvh-20, dvh-30, dvh-40, dvh-50, dvh-60, dvh-70, dvh-80, dvh-90, dvh-100, 
+// flex-direction: row, row-reverse, column, column-reverse, initial, inherit
+// float: inline-start, inline-end, left, right, none
+.kld--padding-{0, half, 1, 2, 3, 4, 5, button-base, button-1, button-2, button-3, button-4, button-5}
+.kld--padding-left-{0, half, 1, 2, 3, 4, 5}
+.kld--padding-right-{0, half, 1, 2, 3, 4, 5}
+.kld--padding-top-{0, half, 1, 2, 3, 4, 5}
+.kld--padding-bottom-{0, half, 1, 2, 3, 4, 5}
+.kld--margin-{0, half, 1, 2, 3, 4, 5}
+.kld--margin-left-{0, half, 1, 2, 3, 4, 5}
+.kld--margin-right-{0, half, 1, 2, 3, 4, 5}
+.kld--margin-top-{0, half, 1, 2, 3, 4, 5}
+.kld--margin-bottom-{0, half, 1, 2, 3, 4, 5}
+.kld--opacity-{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+.kld--border-radius + -{none, extra-small, small, large, full}
+.kld--border
+.kld--display-{none, block, flex, inline, inline-block}
+.kld--font-size-{small, large, extra-large, extra-extra-large}
+.kld--text-align-{center, end, justify, left, right, start}
+.kld--justify-{justify-content}
+.kld--align-items-{align-items}
+.kld--min-width-{width}
+.kld--max-width-{width}
+.kld--min-height-{height}
+.kld--max-height-{height}
+.kld--flex-direction-{flex-direction}
+.kld--float-{float}
+
+
+--GRID--
+// breakpoint: extra-small, small, medium, large, extra-large, breakpoint
+// grid-column: 1 to 12
+// layout-value: flex-start, flex-end, center, space-between, space-around;
+.kld--container
+.kld--row (justify-{layout-value}) 
+.kld--column-{grid-column}-{breakpoint}
+.kld--justify-content-{layout-value}
+
+

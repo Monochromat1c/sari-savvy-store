@@ -1,0 +1,34 @@
+.loginPageBody {
+    background: #111827 url("../img/login-bg.svg") no-repeat center/cover;
+}
+
+.formContainer {
+    background-color: #384c67;
+    outline: 1px solid #98c5ff;
+    box-shadow: -1px 5px 19px #98c5ff;
+    margin-top: 20dvh;
+
+    @media (min-width: 1024px) {
+        padding: 1.5rem;
+    }
+}
+
+.formContainer:hover {
+    box-shadow: -1px 5px 19px #98c5ff;
+    outline: 1px solid #98c5ff;
+}
+
+.contentContainer {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.loginButton {
+    font-weight: 900;
+    background-color: #111827 !important;
+}
+
+.loginButton:hover {
+    background-color: #263149 !important;
+}

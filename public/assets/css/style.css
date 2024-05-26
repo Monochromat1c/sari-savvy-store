@@ -1,0 +1,96 @@
+/* * */
+
+* {
+    /* border: 0.5px dotted rgb(255, 0, 0); */
+}
+
+body {
+    /* background-color: #111827; */
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* LOGIN PAGE */
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Dashboard (applies to every page) */
+.dashboardTitle {
+    font-weight: 800;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Admin Page */
+.adminDashboardBody {
+    background: #111827 url("../img/adminDashboardBg.svg") no-repeat
+        center/cover;
+    overflow-x: hidden;
+}
+
+.adminDashboardNavbar {
+    box-shadow: -1px 1.5px 5px #5498c2;
+    background: rgba(17, 24, 39, 0.66);
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Mobile View */
+.mobileHamburger {
+    display: none;
+}
+
+.hamburgerIcon {
+    background-color: #111827 !important;
+    border: 0.1px solid #111827;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Misc. */
+.custom-pattern {
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* MEDIA QUERIES */
+@media (max-width: 480px),
+    (max-width: 768px),
+    (max-width: 1024px),
+    (max-width: 1200px) {
+    .loginPageBody {
+        background: #111827 url("../img/login-bg.svg") no-repeat bottom/cover;
+    }
+
+    .contentContainer {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .formContainer {
+        margin-top: 15dvh;
+    }
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-height: 768px) {
+    .contentContainer {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .formContainer {
+        margin-top: 13dvh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mobileHamburger {
+        display: block;
+    }
+
+    .navbarLink,
+    .navbarProfile {
+        display: none;
+    }
+}
